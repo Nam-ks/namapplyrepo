@@ -9,9 +9,9 @@ terraform {
 }
 
 
-module "aftnamtest" {
-  source  = "app.terraform.io/tf-cn/aftnamtest/github"
-  version = "1.1.0"
+module "aftnam" {
+  source  = "app.terraform.io/tf-cn/aftnam/github"
+  version = "1.0.0"
   # insert required variables here
     ct_management_account_id    = "552166050235"
     log_archive_account_id      = "590184073128"
